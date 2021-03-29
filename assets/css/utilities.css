@@ -1,0 +1,122 @@
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+
+.btn {
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    margin: 10px 0;
+    text-align: center;
+}
+
+a.block-container {
+    display: block;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.bg-primary {
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: #fff !important;
+}
+
+.bg-light {
+    font-weight: 600;
+    background-color: #fff;
+    color: var(--primary-color) !important;
+}
+
+.bg-gray {
+    background-color: #F1F2F6;
+}
+
+.my-0 {
+    margin: 0 auto;
+}
+
+.my-1 {
+    margin: 1rem auto;
+}
+
+.my-2 {
+    margin: 1.5rem auto;
+}
+
+.my-3 {
+    margin: 2rem auto;
+}
+
+.my-4 {
+    margin: 3rem auto;
+}
+
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 1.5rem;
+}
+
+.mt-3 {
+    margin-top: 2rem;
+}
+
+.mt-4 {
+    margin-top: 3rem;
+}
+
+.py-0 {
+    padding: 0;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 1.5rem 0;
+}
+
+.py-3 {
+    padding: 2rem 0;
+}
+
+.py-4 {
+    padding: 3rem 0;
+}
